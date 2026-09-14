@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & Sensitive Credentials
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+logs/
+
+# Downloaded attachments & generated demo data
+data/attachments/*
+!data/attachments/.gitkeep
+
+# IDE and Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter / Colab notebooks
+.ipynb_checkpoints/
+
+# Operating System files
+.DS_Store
+Thumbs.db

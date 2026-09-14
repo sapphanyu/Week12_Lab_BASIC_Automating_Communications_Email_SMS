@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+
+# Environment Variables & Sensitive Credentials
+.env
+.env.local
+.env.*.local
+*.env
+
+# Log files
+*.log
+logs/
+
+# Downloaded attachments
+email-sms-automator/data/attachments/*
+!email-sms-automator/data/attachments/.gitkeep
+
+# IDE and Editor settings
+.vscode/
+.idea/
+
+# Jupyter / Colab notebooks
+.ipynb_checkpoints/
